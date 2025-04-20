@@ -5,4 +5,4 @@ pytesseract
 whisper
 Pillow
 requests
-
+streamlit-option-menu
