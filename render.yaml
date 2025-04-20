@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: maia
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run assistant.py
+    envVars:
+      - key: TESSDATA_PREFIX
+        value: /usr/share/tesseract-ocr/4.00/tessdata
+
